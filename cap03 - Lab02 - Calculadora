@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled14.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP8cAFCLRmuIYDYxkUwP8yQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/cientistadedadosgithub/publico/blob/PhytonFundamentos/cap03%20-%20Lab02%20-%20Calculadora\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PjdN_lpNH1PG",
+        "outputId": "ddea4f70-843b-4fea-891d-6124dd861399"
+      },
+      "source": [
+        "\n",
+        "print('******************************* Calculadora Python (entre 2 números) *********************************')\n",
+        "print('                                                                                                      ')\n",
+        "print('Selecione o número da operação desejada:')\n",
+        "print ('1 - soma')\n",
+        "print ('2 - subtração')\n",
+        "print ('3 - multiplicação')\n",
+        "print ('4 - divisão')\n",
+        "opcao = float(input('Digite a sua opção (1/2/3/4): '))\n",
+        "num1 = float(input('digite o primeiro número: '))\n",
+        "num2 = float(input('digite o segundo número: '))\n",
+        "if opcao == 1:\n",
+        "  print('soma: ',num1, ' + ' , num2, ' = ' , num1+num2)\n",
+        "elif opcao == 2:\n",
+        "  print('subtração: ',num1, ' - ' , num2, ' = ' , num1-num2)\n",
+        "elif opcao == 3:\n",
+        "  print('multiplicação: ',num1, ' * ' , num2, ' = ' , num1*num2)\n",
+        "elif opcao == 4:\n",
+        "  print('divisão: ',num1, ' * ' , num2, ' = ' , num1/num2)\n",
+        "else:\n",
+        "  print('Opção Inválida!')\n",
+        "print('                                                                                                      ')\n",
+        "print('************************************************* FIM  ***********************************************')\n"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "******************************* Calculadora Python (entre 2 números) *********************************\n",
+            "                                                                                                      \n",
+            "Selecione o número da operação desejada:\n",
+            "1 - soma\n",
+            "2 - subtração\n",
+            "3 - multiplicação\n",
+            "4 - divisão\n",
+            "Digite a sua opção (1/2/3/4): 5\n",
+            "digite o primeiro número: 4\n",
+            "digite o segundo número: 6\n",
+            "Opção Inválida!\n",
+            "                                                                                                      \n",
+            "************************************************* FIM  ***********************************************\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
